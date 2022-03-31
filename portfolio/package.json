@@ -12,6 +12,7 @@
     "sass":"sass --watch ./src/sass/main.scss:./src/App.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postheroku":"npm install && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
