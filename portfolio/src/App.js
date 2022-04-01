@@ -12,7 +12,7 @@ function App() {
           <Link to="/"> <h2> Acceuil </h2> </Link>
           <Link to="/qui-suis-je"> <h2> Qui suis-je ? </h2> </Link>
           <Link to="/projet"> <h2> Projet </h2> </Link>
-          <Link to="/contact"> <h2 class="header__nav__btn-contact btn"> Contact </h2> </Link>
+          <Link to="/contact"> <h2 class="header__nav__btn-contact"> Contact </h2> </Link>
         </nav>
       </header>
     </div>

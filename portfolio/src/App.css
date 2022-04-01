@@ -27,5 +27,11 @@
 .header__nav h2 {
   margin: 0 15px;
 }
+.header__nav__btn-contact {
+  padding: 4px 16px;
+  background-color: #64B5F6;
+  border-radius: 25px;
+  color: white;
+}
 
 /*# sourceMappingURL=App.css.map */
