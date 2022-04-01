@@ -34,4 +34,23 @@
   color: white;
 }
 
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  width: 20vh;
+  height: 20vh;
+  color: white;
+  transform: rotateZ(0);
+  transition: 0.5s;
+}
+.card:hover {
+  background-color: red;
+  transform: rotateY(180deg);
+}
+.card h1 {
+  margin: 0;
+}
+
 /*# sourceMappingURL=App.css.map */

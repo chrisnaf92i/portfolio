@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: cyan;
+    width:20vh;
+    height:20vh;
+
+    color:white;
+
+    transform:rotateZ(0);
+
+    transition: 0.5s;
+
+    &:hover {
+        background-color: red;
+        transform:rotateY(180deg);
+    }
+
+    h1 {
+        margin:0
+    }
+}

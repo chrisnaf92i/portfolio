@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
+import Card from './component/Card';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Link to="/contact"> <h2 class="header__nav__btn-contact"> Contact </h2> </Link>
         </nav>
       </header>
+
+      <Card/>
     </div>
   );
 }
