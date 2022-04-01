@@ -1,3 +1,31 @@
+.App {
+  width: 85%;
+  margin: auto;
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header h1 {
+  margin: 0;
+}
+.header h2 {
+  margin: 0;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav a {
+  color: black;
+  text-decoration: none;
+}
+.header__nav a:hover {
+  color: cyan;
+}
+.header__nav h2 {
+  margin: 0 15px;
+}
 
 /*# sourceMappingURL=App.css.map */
