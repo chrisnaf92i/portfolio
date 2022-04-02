@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { Link } from 'react-router-dom';
-import Card from './component/Card';
+import { Link, Routes, Route } from 'react-router-dom';
+import Home from './page/Home';
+import Who from './page/Who';
+import Projet from './page/Projet';
+import Contact from './page/Contact';
 
 function App() {
   return (
@@ -17,6 +20,18 @@ function App() {
         </nav>
       </header>
 
+
+
+      <section>
+        
+        <Routes>
+          <Route exact path="/" element={ <Home/> }/>
+          <Route path="/qui-suis-je" element={ <Who/> }/>
+          <Route path="/projet" element={ <Projet/> }/>
+          <Route path="/contact" element={ <Contact/> }/>
+        </Routes>
+
+      </section>
     </div>
   );
 }
