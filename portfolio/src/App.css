@@ -32,6 +32,7 @@
   background-color: #64B5F6;
   border-radius: 25px;
   color: white;
+  border: none;
 }
 
 .card {
@@ -50,6 +51,50 @@
   transform: rotateY(180deg);
 }
 .card h1 {
+  margin: 0;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-contact {
+  width: auto;
+}
+.form-contact input {
+  width: 66vh;
+  padding: 8px;
+  border-radius: 16px;
+}
+.form-contact__identity {
+  display: flex;
+}
+.form-contact__identity label {
+  margin-right: 25px;
+}
+.form-contact__identity input {
+  width: 30vh;
+}
+.form-contact textarea {
+  min-width: 66vh;
+  max-width: 66vh;
+  min-height: 25vh;
+  max-height: 25vh;
+}
+.form-contact__btn-container {
+  display: flex;
+  justify-content: center;
+}
+.form-contact__btn-container__submit {
+  margin: 25px;
+  padding: 4px 16px;
+  background-color: #64B5F6;
+  border-radius: 25px;
+  color: white;
+  border: none;
+}
+.form-contact__btn-container__submit h2 {
   margin: 0;
 }
 
