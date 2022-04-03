@@ -24,10 +24,6 @@ export default function Contact() {
   return (
     <main className="contact-page">
         <form className="form-contact" 
-        action="mailto:nafrere.christopher@gmail.com"
-        method="POST"
-        encType='multipart/form-data'
-        name="EmailForm"
         >
           <fieldset>
             <legend> <h1> Me contacter </h1> </legend>
