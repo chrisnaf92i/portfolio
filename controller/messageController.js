@@ -9,7 +9,7 @@ export const createMessage = (req, res) => {
         .catch((err) => res.status(400).json({err}));
 }
 
-export const getAllMessage = (req, res) => {
+export const getAllMessage = (_, res) => {
     messageModel.find({})
         .then((lstMessage) => res.status(200).json({listOfMessage:lstMessage}))
         .catch((err) => res.status(400).json({err}))
