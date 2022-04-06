@@ -38,7 +38,7 @@ export default function Contact() {
       });
 
 
-    const response = await fetch("http://localhost:8000/api/message", {method:"post", headers: {"Content-Type":"application/json"}, body:JSON.stringify(contactData)})
+    const response = await fetch("/api/message", {method:"post", headers: {"Content-Type":"application/json"}, body:JSON.stringify(contactData)})
       .then(() => {
         alert("Message Bien envoyé")
       })
