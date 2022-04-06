@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-work": "nodemon server.js",
-    "start-": "node server.js",
-    "build":"cd portfolio && npm run build",
-    "install-client":"cd portfolio && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build"
+    "nodemon": "nodemon server.js",
+    "start": "node server.js",
+    "build": "cd portfolio && npm run build",
+    "install-client": "cd portfolio && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/chrisnaf92i/portfolio#readme",
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "express": "^4.17.3",
     "mongodb": "^4.4.1",
     "nodemon": "^2.0.15"

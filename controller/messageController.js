@@ -5,8 +5,16 @@ export const createMessage = (req, res) => {
     const newMessage = new message(req.body);
 
     newMessage.save()
-        .then(()=> res.status(201).json({reponse:"Message créer"}))
-        .catch((err) => res.status(400).json({err}));
+        .then(()=> {
+            res.status(201).json({reponse:"Message créer" });
+            console.log("réussite de l'envoi");
+        })
+        .catch((err) => {
+                res.status(400).json({err})
+                console.log("echec de l'envoi");
+
+            }
+        );
 }
 
 export const getAllMessage = (_, res) => {
