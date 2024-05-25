@@ -1,0 +1,82 @@
+const projects = [
+    {
+        title: 'Portfolio Christopher Nafrere',
+        description: '',
+        github: '',
+        link: '',
+        imageUrl: '',
+        tech: ['Next.js', 'Prisma', 'SqlLite', 'styled-components'],
+    },
+    {
+        title: 'BJ Multi Renov',
+        description:
+            "Le site web de BJ Multi Renov présente les services de rénovation et de construction de l'entreprise, offrant aux visiteurs une vue d'ensemble rapide de leurs compétences et de leurs projets.",
+        link: 'https://bjmultirenov.fr',
+        client: 'BJ Multi Renov',
+        imageUrl: '',
+        tech: ['Next.js', 'Prisma', 'Postgresql'],
+    },
+    {
+        title: 'EcoPlayground',
+        description:
+            'Projet Echo playground, une web-app proposant des challenges écologiques développé dans le cadre de mes études à la wild code school.',
+        github: 'https://github.com/WildCodeSchool/2209-wns-lovelace-eco-challenges',
+        client: 'Wild Code School',
+        imageUrl: '',
+        tech: [
+            'Next.js',
+            'Tailwindcss',
+            'Apollo',
+            'Typeorm',
+            'Docker',
+            'React Native',
+            'Graphql',
+            'Postgresql',
+        ],
+    },
+    {
+        title: 'Reservia',
+        description: '',
+        link: 'https://chrisnaf92i.github.io/ChristopherNafrere_2_02032021/',
+        github: 'https://github.com/chrisnaf92i/ChristopherNafrere_2_02032021',
+        client: 'Openclassrooms',
+        imageUrl: '',
+        tech: ['HTML', 'CSS', 'Javascript'],
+    },
+    {
+        title: 'Oh My Food',
+        description: '',
+        link: 'https://chrisnaf92i.github.io/ChristopherNafrere_3_12042020/french.html',
+        github: 'https://github.com/chrisnaf92i/ChristopherNafrere_3_12042020',
+        client: 'Openclassrooms',
+        imageUrl: '',
+        tech: ['HTML', 'CSS', 'Sass'],
+    },
+    {
+        title: 'Orinoco Teddies',
+        description: '',
+        link: 'https://chrisnaf92i.github.io/ChristopherNafrere_5_14062020/',
+        github: 'https://github.com/chrisnaf92i/ChristopherNafrere_5_14062020',
+        client: 'Openclassrooms',
+        imageUrl: '',
+        tech: ['HMTL', 'CSS', 'Sass'],
+    },
+    {
+        title: 'So Pecko',
+        description: '',
+        github: 'https://github.com/chrisnaf92i/ChristopherNafrere_6_16072021',
+        client: 'Openclassrooms',
+        imageUrl: '',
+        tech: ['Node.js', 'Express.js', 'Mongodb'],
+    },
+    {
+        title: 'Chris Social Network',
+        description: '',
+        github: 'https://github.com/chrisnaf92i/ChristopherNafrere_7_08082021',
+        client: 'Openclassrooms',
+        imageUrl: '',
+        tech: ['Node.js', 'Express.js', 'MySql', 'React Js', 'Sass'],
+    },
+];
+
+export default projects;
