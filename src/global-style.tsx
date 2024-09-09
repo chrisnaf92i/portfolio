@@ -5,8 +5,8 @@ const GlobalStyles = createGlobalStyle`
     body {
         width: 100vw;
         min-height: 100vh;
-        overflow: hidden;
-        background-color: #0d0c16;
+        overflow-x: hidden;
+        background-color: #12111f;
         margin: 0;
     }
 
